@@ -35,4 +35,6 @@ function capturaTexto() {
     
 
     document.querySelector("#nuevaTarea").value="";
+    //esta linea hacer focus en ele input, lo mantiene activo listo para poder ingresar cualquier texto
+    input.focus()
 }
